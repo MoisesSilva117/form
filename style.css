@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* background-color: rgba(255, 255, 0, 0.897); */
+    background-image: url("https://cdn-icons-png.flaticon.com/800/7412/7412212.png");
+    background-repeat: no-repeat;
+    background-color: rgb(244,238,80);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.301);
+    margin-right: 300px;
+    margin-top: 180px;
+}
+
+.container, h1 {
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+form, p {
+    margin-bottom: 5px;
+}
+
+#btn {
+    margin-top: 15px;
+    background-color: rgba(0, 110, 255, 0.884);
+    border: none;
+    font-size: 18px;
+    color:  white;
+}
+
+#btn:hover {
+    box-shadow: 2px 4px 32px -4px rgba(0, 110, 255, 0.719);
+
+}
+
+/* Responsividade */
+
+@media (max-width: 790px) {
+    
+.container {
+    float: none;
+    margin: 20px;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    
+}
+
+
+}
+
